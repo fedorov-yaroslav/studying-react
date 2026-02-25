@@ -1,10 +1,10 @@
 import './index.css'
-import TrafficLight from './components/TrafficLight.jsx'
+import Addition from './components/Addition.jsx'
   function App() {
 
   return (
       <>
-        <TrafficLight />
+        <Addition />
       </>
 
     )
