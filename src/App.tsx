@@ -1,10 +1,10 @@
 import './index.css'
-import Addition from './components/Addition.jsx'
+import GuessNumber from './components/GuessNumber.jsx'
   function App() {
 
   return (
       <>
-        <Addition />
+        <GuessNumber />
       </>
 
     )
