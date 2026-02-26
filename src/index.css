@@ -65,3 +65,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.product{
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.success{
+  color: green;
+}
+
+.error{
+  color: darkred;
+}
+
+.info{
+  color: grey;
+}
