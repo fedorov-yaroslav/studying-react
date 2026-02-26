@@ -11,6 +11,8 @@ import Seasons from './components/Seasons.jsx'
 import LikeButton from './components/LikeButton.jsx'
 import ShowPassword from './components/ShowPassword.jsx'
 import RollTheDice from './components/RollTheDice.jsx'
+import Input from './components/sprint4/Input.jsx'
+import Input2 from './components/sprint4/Input2.jsx'
 
 function App() {
   const productList = [
@@ -52,6 +54,10 @@ function App() {
         <LikeButton/>
         <ShowPassword />
         <RollTheDice />
+        <h2>Sprint 4</h2>
+        <Input />
+        <br />
+        <Input2 />
       </>
 
     )
