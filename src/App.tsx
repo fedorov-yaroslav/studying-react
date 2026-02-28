@@ -1,11 +1,13 @@
 import './index.css'
-import ArraysAndObjects from './components/ArraysAndObjects.jsx'
+import LiveCounter from './components/LiveCounter.jsx'
+import AutoCounter from './components/AutoCounter.jsx'
+import Timer from './components/Timer.jsx'
 
 function App() {
 
   return (
       <>
-        <ArraysAndObjects />
+        <Timer />
       </>
 
     )
