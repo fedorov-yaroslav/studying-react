@@ -1,11 +1,11 @@
 import './index.css'
-import RandomColor from './components/RandomColor.jsx'
+import SimpleToDo from './components/SimpleToDo.jsx'
 
 function App() {
 
   return (
       <>
-        <RandomColor />
+        <SimpleToDo />
       </>
 
     )

@@ -65,37 +65,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-.product{
-  width: 400px;
-  height: 200px;
-  border: 2px solid black;
-}
-
-.success{
-  color: green;
-}
-
-.error{
-  color: darkred;
-}
-
-.info{
-  color: grey;
-}
-
-.timer{
-  font-size: 2.5rem;
-  font-family: "Roboto Light", sans-serif;
-}
-
-.container{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.display{
-  width: 400px;
-  height: 400px;
-}
