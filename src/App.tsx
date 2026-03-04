@@ -1,11 +1,11 @@
 import './index.css'
-import FilterInput from './components/FilterInput.jsx'
+import CoffeeShop from './components/CoffeeShop.jsx'
 
 function App() {
 
   return (
       <>
-        <FilterInput />
+        <CoffeeShop />
       </>
 
     )
