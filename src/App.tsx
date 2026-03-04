@@ -1,11 +1,11 @@
 import './index.css'
-import SimpleToDo from './components/SimpleToDo.jsx'
+import FilterInput from './components/FilterInput.jsx'
 
 function App() {
 
   return (
       <>
-        <SimpleToDo />
+        <FilterInput />
       </>
 
     )
