@@ -3,18 +3,22 @@ import { useState, useEffect } from 'react'
 function Start() {
   const [fact, setFact] = useState('')
 
-  useEffect(() => {
-    fetch('https://meowfacts.herokuapp.com/')
+  const fetchFact = () => {
+    fetch('https://catfact.ninja/fact')
         .then(res => res.json())
-        .then(data => setFact(data.data[0]))
-        .catch(err => console.log(err))
+        .then(data => setFact(data.fact))
+        .catch(err => setFact('Ошибка загрузки'));
+  };
 
-  }, [])
+  useEffect(() => {
+    fetchFact(); // загружаем первый раз
+  }, []);
 
   return (
     <>
       <h1>Cat Fact</h1>
-      <p style = {{color: 'white', fontSize: '1.3rem'}}>{fact || 'Loading...'}</p>
+      <p>{fact}</p>
+      <button onClick = {fetchFact}>New Fact</button>
     </>
   )
 }
