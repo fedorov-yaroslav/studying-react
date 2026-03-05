@@ -1,11 +1,11 @@
 import './index.css'
-import CoffeeShop from './components/CoffeeShop.jsx'
+import Start from './components/Start.jsx'
 
 function App() {
 
   return (
       <>
-        <CoffeeShop />
+        <Start />
       </>
 
     )

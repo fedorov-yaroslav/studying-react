@@ -65,3 +65,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body{
+  background-image: url("https://cdn.britannica.com/39/226539-050-D21D7721/Portrait-of-a-cat-with-whiskers-visible.jpg");
+  background-position: center;
+  width: 100%;
+}
